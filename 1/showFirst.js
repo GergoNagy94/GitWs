@@ -3,6 +3,8 @@
 const getBeers = require('../data')
 
 function getFirstBeer() {
+    const beers = getBeers();
+    return beers[0];
     // TODO: return the first beer object (use `getBeers` for the solution)
 }
 
