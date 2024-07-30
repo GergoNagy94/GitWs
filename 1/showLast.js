@@ -3,6 +3,8 @@
 const getBeers = require('../data')
 
 function getLastBeer() {
+    const beers = getBeers();
+    return beers[beers.length-1];
     // TODO: return the last beer object (use `getBeers` for the solution)
 }
 
