@@ -2,7 +2,6 @@
 // Usage: node add.js
 
 function add(a, b) {
-
     return a+b
     // TODO: return the sum of the numbers
 }
